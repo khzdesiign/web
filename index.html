@@ -1,0 +1,1073 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<header />
+ <!-- CSS -->
+<style>
+@charset "utf-8";
+/* CSS Document - v3.5.0 */
+
+html {
+    direction:rtl
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha22/dist/Sahel.eot');
+  src: url('https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha22/dist/Sahel.eot?#iefix') format('embedded-opentype'),
+       url('https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha22/dist/Sahel.woff') format('woff'),
+       url('https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha22/dist/Sahel.ttf') format('truetype');
+  font-weight: normal;
+}
+      
+@font-face {
+  font-family: Sahel-Bold;
+  src: url('https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha22/dist/Sahel-Bold.eot');
+  src: url('https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha22/dist/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+       url('https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha22/dist/Sahel-Bold.woff') format('woff'),
+       url('https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha22/dist/Sahel-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+body {
+    font-family: "Sahel", "arial", "Times New Roman", Times, Arial, serif;
+}
+div,ul,li,a,span,font,td,tr,table,h1, h2, h3, h4, h5, h6,tr,ol{
+direction:rtl
+}
+/* footer */
+a:hover{
+    text-decoration:none;
+}
+
+.footer {
+    padding:30px 0px 20px 0px;
+	color: #ccc;
+    background-color: #222;
+}
+
+.footer h3 {
+	color: #FFF;
+	font-size:15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom:20px;
+}
+
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+
+.footer ul li a {
+	padding: 10px 0px;
+    display: block;
+    color: #ccc;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.footer ul li a:hover{
+	color:#1e76a8;
+}
+
+.footer-bottom{
+	background-color: #111;
+    color: #282c2d;
+    font-size: 12px;
+	text-align: center;
+	height: 50px;
+    line-height: 50px;
+}
+
+.footer-bottom p{
+	font-size:13px;
+	color: #FFF;
+}
+
+.footer-top{
+	background-color: #f7f7f7;
+    text-align: center;
+}
+
+.footer-top .social-icons{
+   padding:50px 0px;
+}
+
+.footer-top .social-icons i{
+	padding:0px 20px;
+	font-size:25px;
+	color: #aaa;
+}
+
+.footer-top .social-icons i:hover{
+	color:#1e76a8;
+}
+
+.logo{
+   color:#FFF;
+   font-size:30px;
+   font-weight:600;
+}
+.bs-text-box{
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+</style>
+ <!-- CSS -->
+    <title>@blogTitle</title>
+  </head>
+  <body>
+ <!-- sidebars -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <!-- logo top -->
+<a class="navbar-brand" href="@blogUrl">
+  <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+   @blogTitle
+  </a>
+  <!-- logo top -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+<!-- Menu -->
+        <a class="nav-link" href="@blogUrl"><i class="fa fa-fw fa-home"></i> خانه<span class="sr-only">(current)</span></a>
+</li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="fas fa-briefcase"></i> نمونه کارها<span class="sr-only">(current)</span></a>
+      </li>
+        <a class="nav-link" href="#"><i class="fas fa-credit-card"></i> پرداخت آنلاین<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="@postArchiveHref"><i class="fas fa-rss"></i> یاداشت ها<span class="sr-only">(current)</span></a>
+      </li>
+        <a class="nav-link" href="#"><i class="far fa-edit"></i> ثبت سفارش<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="@contactHref"><i class="fas fa-envelope"></i> تماس با من<span class="sr-only">(current)</span></a>
+      </li>
+<!-- Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-tools"></i> ابزار
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"><i class="fas fa-laptop-code"></i> توسعه</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-archive"></i> ابزار ها</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#"><i class="fas fa-swatchbook"></i> کد رنگ ها</a>
+        </div>
+      </li>
+    </ul>
+<!-- Menu -->
+		<!-- Search -->
+<search>
+  <form class="form-inline">
+     <div class="search"></div>
+                    <searchBox />
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">@caption</button>
+  </form>
+  </search>
+  <!-- Search -->
+</div>
+</nav>
+<!-- sidebars -->
+<!-- new -->
+<section class="pt-4 pt-md-11">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-5 col-lg-6 order-md-2">
+            
+            <!-- Image -->
+            <img src="https://landkit.goodthemes.co/assets/img/illustrations/illustration-2.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 aos-init aos-animate" alt="..." data-aos="fade-up" data-aos-delay="100">
+
+          </div>
+          <div class="col-12 col-md-7 col-lg-6 order-md-1 aos-init aos-animate" data-aos="fade-up">
+            
+            <!-- Heading -->
+            <h2 class="display-3 text-center text-md-left">
+             <span class="text-primary"><a href="@blogUrl">@blogTitle</a></span><br>
+            </h2>
+
+            <!-- Text -->
+            <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">@blogDescription</p>
+
+            <!-- Buttons -->
+
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+<!-- new -->
+<br>
+<section class="py-8 py-md-11 border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up">
+<center>
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <!--?xml version="1.0" encoding="UTF-8"?-->
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+                  <title>Stockholm-icons / General / Settings-1</title>
+                  <desc>Created with Sketch.</desc>
+                  <g id="Stockholm-icons-/-General-/-Settings-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+                      <path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" id="Combined-Shape" fill="#335EEA"></path>
+                      <path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" id="Combined-Shape" fill="#335EEA" opacity="0.3"></path>
+                  </g>
+              </svg>
+            </div>
+
+            <!-- Heading -->
+
+            <h3>
+              طراحی گرافیک
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              طراحی به صورت کاملا انحصاری بر اساس استانداردهای بین المللی، با قابلیت ثبت.
+            </p>
+</center>
+          </div>
+          <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
+<center>
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <!--?xml version="1.0" encoding="UTF-8"?-->
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+                  <title>Stockholm-icons / General / Settings-1</title>
+                  <desc>Created with Sketch.</desc>
+                  <g id="Stockholm-icons-/-General-/-Settings-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+                      <path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" id="Combined-Shape" fill="#335EEA"></path>
+                      <path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" id="Combined-Shape" fill="#335EEA" opacity="0.3"></path>
+                  </g>
+              </svg>
+            </div>
+            <!-- Heading -->
+            <h3>
+             طراحی و بازسازی نشانه
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+            طراحی، بازسازی و استاندارد سازی لوگو و علائم تجاری با هدف تعالی هویت بصری برندها.
+            </p>
+</center>
+          </div>
+          <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+<center> 
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <!--?xml version="1.0" encoding="UTF-8"?-->
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+                  <title>Stockholm-icons / Code / Code</title>
+                  <desc>Created with Sketch.</desc>
+                  <g id="Stockholm-icons-/-Code-/-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+                      <path d="M17.2718029,8.68536757 C16.8932864,8.28319382 16.9124644,7.65031935 17.3146382,7.27180288 C17.7168119,6.89328641 18.3496864,6.91246442 18.7282029,7.31463817 L22.7282029,11.5646382 C23.0906029,11.9496882 23.0906029,12.5503176 22.7282029,12.9353676 L18.7282029,17.1853676 C18.3496864,17.5875413 17.7168119,17.6067193 17.3146382,17.2282029 C16.9124644,16.8496864 16.8932864,16.2168119 17.2718029,15.8146382 L20.6267538,12.2500029 L17.2718029,8.68536757 Z M6.72819712,8.6853647 L3.37324625,12.25 L6.72819712,15.8146353 C7.10671359,16.2168091 7.08753558,16.8496835 6.68536183,17.2282 C6.28318808,17.6067165 5.65031361,17.5875384 5.27179713,17.1853647 L1.27179713,12.9353647 C0.909397125,12.5503147 0.909397125,11.9496853 1.27179713,11.5646353 L5.27179713,7.3146353 C5.65031361,6.91246155 6.28318808,6.89328354 6.68536183,7.27180001 C7.08753558,7.65031648 7.10671359,8.28319095 6.72819712,8.6853647 Z" id="Combined-Shape" fill="#335EEA"></path>
+                      <rect id="Rectangle-28" fill="#335EEA" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-345.000000) translate(-12.000000, -12.000000) " x="11" y="4" width="2" height="16" rx="1"></rect>
+                  </g>
+              </svg>
+            </div>
+
+            <!-- Heading -->
+            <h3>
+            طراحی ست اداری
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-0">
+              طراحی کاملا اختصاصی مجموعه اوراق اداری مانند: سربرگ ها، پاکت ها و کارت های شرکتی و...
+            </p>
+</center>
+          </div>
+        </div> <br>
+
+<!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+<!-- 01 -->
+<div class="jumbotron text-center">
+<img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="60" height="60" class="d-inline-block align-top" alt="">
+  <h1><h1 id="blog-title"><a href="@blogUrl">@blogTitle</a></h1></h1>
+  <p>@blogDescription</p> 
+<button type="button" class="btn btn-success">نرم افزار سایت <i class="fab fa-android"></i></button>
+</div>
+<!-- 02 -->
+<div class="container">
+  <div class="alert alert-success alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <strong>توجه!</strong> وب سایت در حال توسعه است.
+  </div>
+</div>
+<!-- 100 -->
+<div class="warper">
+        <div class="content">
+            <div class="post-part">
+                <post>
+                    <many>
+                        <div class="@pinStyleClass" style="margin-left: 15px;">
+                            <h2 class="post-title">
+                                <a href="@href">@title</a></h2>
+                            <div>
+                                <authorAvatar>
+                                    <img alt="" class="profile" src="@image" />
+                                </authorAvatar>
+		                        <password>
+		                        <div style="padding: 20px 0; text-align: center;">
+		                            <div>این مطلب توسط نویسنده آن رمزگذاری شده است.<br />
+		                            برای مشاهده آن احتیاج به وارد کردن رمز عبور دارید.</div>
+		                            <div style="padding-top: 10px;">
+		                                <result><div style="color: #f00">@message</div></result>
+		                                رمز عبور: <passwordBox /> <input type="submit" value="ارسال" />
+		                            </div>
+		                        </div>
+		                        </password>
+                                @content
+                                <more>
+                                    <br />
+                                    <a style="display: block;" href="@href">ادامه مطلب ...</a>
+                                </more>
+                                
+                                <tag>
+                                    <div class="tags">
+                                    برچسب‌ها: <many><a href="@href">@name</a><separator>، </separator></many>
+                                    </div>
+                                </tag>
+
+                                <like>
+                                    <script>
+                                        blogsky.ajax.onPostLikeBegin = function(e) {
+                                            var postLikeCountElement = document.getElementById("post-like-count-" + e.id);
+                                            var postLikeCount = parseInt(postLikeCountElement.innerHTML);
+                                            postLikeCountElement.innerHTML = postLikeCount + 1;
+                                        }
+
+                                        blogsky.ajax.onPostLikeFailure = function(e) {
+                                            var postLikeCountElement = document.getElementById("post-like-count-" + e.id);
+                                            postLikeCountElement.innerHTML = parseInt(postLikeCountElement.innerHTML) - 1;
+                                            var postLikeErrorMessage = document.getElementById("post-like-error-message-" + e.id);
+                                            postLikeErrorMessage.innerHTML = e.error;
+                                            setTimeout(function () { postLikeErrorMessage.innerHTML = ""; }, 5000);
+                                        }
+                                    </script>
+                                    <div class="like">
+                                        <span onclick="@ajaxAction" style="cursor: pointer;">
+                                            <img style="vertical-align: middle;" src="http://www.blogsky.com/images/template/world/like.gif">
+                                            (<span style="font-size: 10pt;" id="post-like-count-@id">@count</span> لایک)
+                                        </span>
+                                        <span id="post-like-error-message-@id" class="message"></span>
+                                    </div>
+                                </like>
+
+                                <sharing>
+                                <div class="sharing">
+                                    <a href="http://www.facebook.com/sharing.php?u=@url&t=@title" title="Facebook" target="_blank" style="background-position: 0px 0px;"></a>
+                                    <a href="http://twitter.com/home?statue=@url : @title" title="Twitter" target="_blank" style="background-position: -17px 0px;"></a>
+                                    <a href="http://friendfeed.com/sharing?u=@url&t=@title" title="FriendFeed" target="_blank" style="background-position: -34px 0px;"></a>
+                                    <a href="ymsgr:sendim?+&m=@url" title="Yahoo Messenger" style="background-position: -51px 0px;"></a>
+                                    <a href="http://compose.mail.yahoo.com/?subject=@title&body=@url" title="Yahoo Mail" target="_blank" style="background-position: -68px 0px;"></a>
+                                    <a href="http://delicio.us/post?url=@url&title=@title" title="Delicious" target="_blank" style="background-position: -85px 0px;"></a>
+                                    <a href="http://digg.com/submit?url=@url&t=@title" title="Digg" target="_blank" style="background-position: -102px 0px;"></a>
+                                    <a href="http://www.linkedin.com/sharingArticle?mini=true&url=@url&title=@title&source=@blogUrl" title="LinkedIn" target="_blank" style="background-position: -119px 0px;"></a>
+                                    <a href="https://mail.google.com/mail/?ui=2&view=cm&fs=1&tf=1&su=@title&body=@url" title="Gmail" target="_blank" style="background-position: -136px 0px;"></a>
+                                    <div style="clear: both;"></div>
+                                </div>
+                                </sharing>
+
+                                <div class="detailes">
+                                    <span class="info">تاریخ ارسال: @date ساعت @time<author> | نویسنده: <a href="@profileHref" target="_blank">@name</a></author>
+                                        <print> | <a onclick="window.open('@href','_blank','width=700, height=500, scrollbars=yes, resizable=yes');" href="javascript:void(0)">چاپ مطلب</a></print>
+                                    </span>
+                                    <commentLink>
+                                        <span class="comments"><a href="@href">@count نظر</a></span>
+                                    </commentLink>
+                                </div>
+                                <div class="dt-bottom">
+                                </div>
+                            </div>
+                        </div>
+                        <comment />
+                    </many>
+                    <paging />
+                </post>
+                <staticPage>
+                    <div style="margin-left: 15px;">
+                        <h2 class="post-title">
+                            <a href="@href">@title</a></h2>
+                        <div class="post-text">
+		                    <password>
+		                    <div style="padding: 20px 0; text-align: center;">
+		                        <div>این مطلب توسط نویسنده آن رمزگذاری شده است.<br />
+		                        برای مشاهده آن احتیاج به وارد کردن رمز عبور دارید.</div>
+		                        <div style="padding-top: 10px;">
+		                            <result><div style="color: #f00">@message</div></result>
+		                            رمز عبور: <passwordBox /> <input type="submit" value="ارسال" />
+		                        </div>
+		                    </div>
+		                    </password>
+                            @content
+                        </div>
+                    </div>
+                    <comment />
+                </staticPage>
+                <postArchive>
+                    <div style="margin-left: 15px;">
+                        <h2 class="post-title">
+                            <a href="@postArchiveHref">عناوین آخرین یادداشت‌ها </a><a href="@blogRssHref" target="_blank">
+                                <img src="http://www.blogsky.com/images/template/world/rss.gif" height="14" width="14" alt="" /></a></h2>
+                        <div>
+                            <ul class="title-list">
+                            <many>
+                                <li><a href="@href">@title</a>&nbsp;<span style="font-size: 7pt">(@date @time)</span><br /><div class="excerpt">@excerpt</div></li>
+                            </many>
+                            </ul>
+                            <paging />
+                        </div>
+                    </div>
+                    <paging />
+                </postArchive>
+                <searchResult>
+                    <div style="margin-left: 15px;">
+                        <h2 class="post-title">@message</h2>
+                        <div>
+                            <ul class="title-list">
+                            <many>
+                                <li><a href="@href">@title</a>&nbsp;<span style="font-size: 7pt">(@date)</span><div class="excerpt">@excerpt</div></li>
+                            </many>
+                            </ul>
+                            <paging />
+                        </div>
+                    </div>
+                    <paging />
+                </searchResult>
+                <dailylinkArchive>
+                    <div style="margin-left: 15px;">
+                        <h2 class="post-title">
+                            <a href="@blogUrl/dailylink">لیست پیوند‌های روزانه</a> <a href="@dailylinkRssHref" target="_blank">
+                                <img src="http://www.blogsky.com/images/template/world/rss.gif" height="14" width="14" alt="" /></a></h2>
+                        <div>
+                            <ul>
+                            <many>
+                                <li><a href="@url" target="_blank" title="@date">@title</a>&nbsp;
+                                    <img src="http://www.blogsky.com/images/template/world/click.gif" alt="" />(@clickCount&nbsp;کلیک)<div>
+                                        <div class="description">@description</div></div>
+                                </li>
+                            </many>
+                            </ul>
+                            <paging />
+                        </div>
+                    </div>
+                </dailylinkArchive>
+                <comment>
+                <script>
+                    blogsky.ajax.onCommentSubmitSuccess= function(e) {
+                        document.getElementById("comment-form").innerHTML = "<div class=\"message\">" + e.data + "</div>";
+                    }
+
+                    blogsky.ajax.onCommentSubmitFailure = function(e) {
+                        document.getElementById("comment-errors-message").innerHTML = e.error;
+                    }
+
+                    blogsky.ajax.onCommentRateBegin = function(e) {
+                        switch (e.rateType) {
+                            case "plus":
+                                var commentRatePlus = document.getElementById("comment-rate-plus-count-" + e.id);
+                                commentRatePlus.innerHTML = parseInt(commentRatePlus.innerHTML) + 1;
+                                break;
+                            case "minus":
+                                var commentMinusPlus = document.getElementById("comment-rate-minus-count-" + e.id);
+                                commentMinusPlus.innerHTML = parseInt(commentMinusPlus.innerHTML) + 1;
+                                break;
+                        }
+                    }
+
+                    blogsky.ajax.onCommentRateFailure = function(e) {
+                        switch (e.rateType) {
+                            case "plus":
+                                var commentRatePlus = document.getElementById("comment-rate-plus-count-" + e.id);
+                                commentRatePlus.innerHTML = parseInt(commentRatePlus.innerHTML) - 1;
+                                break;
+                            case "minus":
+                                var commentMinusPlus = document.getElementById("comment-rate-minus-count-" + e.id);
+                                commentMinusPlus.innerHTML = parseInt(commentMinusPlus.innerHTML) - 1;
+                                break;
+                        }
+                        var commentRateErrorMessage = document.getElementById("comment-rate-error-message-" + e.id);
+                        commentRateErrorMessage.innerHTML = e.error;
+                        commentRateErrorMessage.style.display = "block";
+                        setTimeout(function () { commentRateErrorMessage.style.display = "none"; }, 3000);
+                    }
+
+                    function insertCommentSmiley(smiley) {
+                        var inputComment = document.getElementById("comments").getElementsByTagName("TEXTAREA")[0];
+                        blogsky.general.insertAtCursor(inputComment, smiley);
+                    }
+                </script>
+                <div id="comments">
+                    <div class="title">نظرات (@commentCount)</div>
+                    <div class="right">
+                <many>
+                    <div class="c-info" id="comment-@id">
+                        <div class="sender">
+                            <div class="datetime">@date @time</div>
+                            <gravatar><div class="gravatar"><img src="@image" alt="" /></div></gravatar>
+                            <a href="@authorWebsite" target="_blank">@authorName</a>
+                            <country>[ <img src="@flagImage" title="@name" alt="" style="vertical-align: middle" /> ]</country>
+                            <rate>
+                            <div class="rate">
+                                امتیاز: 
+                                <span onclick="@ajaxPlusAction" title="مثبت" class="plus"><span style="font-size: 10pt;" id="comment-rate-plus-count-@id">@plusCount</span> <img src="http://www.blogsky.com/images/template/world/plus.gif" alt=""></span>
+                                <span onclick="@ajaxMinusAction" title="منفی" class="minus"><span style="font-size: 10pt;" id="comment-rate-minus-count-@id">@minusCount</span> <img src="http://www.blogsky.com/images/template/world/minus.gif" alt=""></span>
+                                <div id="comment-rate-error-message-@id" class="message"></div>
+                            </div>
+                            </rate>
+                            <a href="#comment-@id">لینک نظر</a>
+                        </div>
+                        <div class="comment-part">
+                            @text
+                            <reply>
+                                <div class="replay">
+                                    <strong style="color: black">پاسخ: </strong>
+                                    <br />
+                                    @text
+                                </div>
+                            </reply>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div style="clear: both;"></div>
+                </many>
+                <paging />
+                <message>
+	            <div class="comment">
+				    <div class="comment-part">
+                        <div class="message">@text</div>
+				    </div>
+                </div>
+                </message>
+                <form>
+                    <div class="c-info">
+                        <smiley>
+                        <div class="smiley">
+                            <div id="smiley-box">
+                                <img src="http://www.blogsky.com/images/smileys/101.png" alt="" title="لبخند" onclick="insertCommentSmiley(':لبخند:')" />
+                                <img src="http://www.blogsky.com/images/smileys/102.png" alt="" title="چشمک" onclick="insertCommentSmiley(':چشمک:')" />
+                                <img src="http://www.blogsky.com/images/smileys/103.png" alt="" title="خجالت" onclick="insertCommentSmiley(':خجالت:')" />
+                                <img src="http://www.blogsky.com/images/smileys/104.png" alt="" title="ناراحت" onclick="insertCommentSmiley(':ناراحت:')" />
+                                <img src="http://www.blogsky.com/images/smileys/105.png" alt="" title="خوشتیپ" onclick="insertCommentSmiley(':خوشتیپ:')" />
+                                <img src="http://www.blogsky.com/images/smileys/106.png" alt="" title="عصبانی" onclick="insertCommentSmiley(':عصبانی:')" />
+                                <img src="http://www.blogsky.com/images/smileys/107.png" alt="" title="خنده" onclick="insertCommentSmiley(':خنده:')" />
+                                <img src="http://www.blogsky.com/images/smileys/108.png" alt="" title="زبان" onclick="insertCommentSmiley(':زبان:')" />
+                                <img src="http://www.blogsky.com/images/smileys/109.png" alt="" title="مسخره" onclick="insertCommentSmiley(':مسخره:')" />
+                                <img src="http://www.blogsky.com/images/smileys/110.png" alt="" title="کلافه" onclick="insertCommentSmiley(':کلافه:')" />
+                                <img src="http://www.blogsky.com/images/smileys/111.png" alt="" title="گریه" onclick="insertCommentSmiley(':گریه:')" />
+                                <img src="http://www.blogsky.com/images/smileys/112.png" alt="" title="پوزخند" onclick="insertCommentSmiley(':پوزخند:')" />
+                                <img src="http://www.blogsky.com/images/smileys/113.png" alt="" title="بدجنس" onclick="insertCommentSmiley(':بدجنس:')" />
+                                <img src="http://www.blogsky.com/images/smileys/114.png" alt="" title="تعجب" onclick="insertCommentSmiley(':تعجب:')" />
+                                <img src="http://www.blogsky.com/images/smileys/115.png" alt="" title="ناخوش" onclick="insertCommentSmiley(':ناخوش:')" />
+                                <img src="http://www.blogsky.com/images/smileys/116.png" alt="" title="بیخیال" onclick="insertCommentSmiley(':بیخیال:')" />
+                                <img src="http://www.blogsky.com/images/smileys/117.png" alt="" title="بوس" onclick="insertCommentSmiley(':بوس:')" />
+                                <img src="http://www.blogsky.com/images/smileys/118.png" alt="" title="خواب" onclick="insertCommentSmiley(':خواب:')" />
+                                <img src="http://www.blogsky.com/images/smileys/119.png" alt="" title="عاشق" onclick="insertCommentSmiley(':عاشق:')" />
+                                <img src="http://www.blogsky.com/images/smileys/120.png" alt="" title="راضی" onclick="insertCommentSmiley(':راضی:')" />
+                                <img src="http://www.blogsky.com/images/smileys/121.png" alt="" title="کسل" onclick="insertCommentSmiley(':کسل:')" />
+                                <img src="http://www.blogsky.com/images/smileys/122.png" alt="" title="نخبه" onclick="insertCommentSmiley(':نخبه:')" />
+                                <img src="http://www.blogsky.com/images/smileys/123.png" alt="" title="گل" onclick="insertCommentSmiley(':گل:')" />
+                                <img src="http://www.blogsky.com/images/smileys/124.png" alt="" title="هدیه" onclick="insertCommentSmiley(':هدیه:')" />
+                                <img src="http://www.blogsky.com/images/smileys/125.png" alt="" title="قلب" onclick="insertCommentSmiley(':قلب:')" />
+                                <img src="http://www.blogsky.com/images/smileys/126.png" alt="" title="نت" onclick="insertCommentSmiley(':نت:')" />
+                            </div>
+                        </div>
+                        </smiley>
+                        <gravatarHelp><div id="gravatar-help">@message</div></gravatarHelp>
+                        <div id="comment-form" class="comment-part">
+                            <table id="form-box" cellspacing="2">
+                                <tr>
+                                    <th>
+                                        نام :
+                                    </th>
+                                    <td>
+                                        <nameBox />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        پست الکترونیک :
+                                    </th>
+                                    <td>
+                                        <emailBox />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        وب/وبلاگ :
+                                    </th>
+                                    <td>
+                                        <websiteBox />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: left">
+                                        <commentBox />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center">
+                                        <captcha />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="padding-bottom: 5px; text-align: right;">
+				    	                <saveProfileBox /> <label for="bs-input-comment-save-profile"> مشخصات مرا به خاطر بسپار</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: right">
+                                        ایمیل شما بعد از ثبت نمایش داده نخواهد شد
+                                    </td>
+                                </tr>
+						        <tr>
+						            <td colspan="2" id="comment-errors-message">
+						            </td>
+		                        </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center">
+                                        <input type="button" onclick="@ajaxAction" value="   ارسال   " />
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </form>
+                </div>
+                </div>
+                </comment>
+                <paging>
+                    <div class="detailes">
+                        <div class="pages">
+                            <div style="float: right;">( تعداد کل: @totalCount )</div>
+                            <prePage>
+                                <a href="@href" title="صفحه قبلی">&lt;&lt;</a>
+                            </prePage>
+                            <many>
+                                <current>
+                                    <span>&nbsp;&nbsp;&nbsp;@number&nbsp;&nbsp;&nbsp;</span></current>
+                                <page>
+                                    <a href="@href">&nbsp;&nbsp;@number&nbsp;&nbsp;</a></page>
+                            </many>
+                            <nextPage>
+                                <a href="@href" title="صفحه بعدی">&gt;&gt;</a>
+                            </nextPage>
+                        </div><div class="comments">صفحات</div>
+                    </div>
+                    <div class="dt-bottom">
+                    </div>
+                </paging>
+                <contact>
+                <div id="contact">
+                    <div class="header">
+                        <div class="title">تماس با من</div>
+                        <result>
+                            @message
+                        </result>
+                    </div>
+                    <form>
+					<table id="contact-box" cellspacing="2">
+						<tr>
+							<th>نام :</th>
+							<td><nameBox /></td>
+						</tr>
+						<tr>
+							<th>ایمیل :</th>
+							<td><emailBox /></td>
+						</tr>
+						<tr>
+							<th>موضوع نامه :</th>
+							<td><subjectBox /></td>
+						</tr>
+                        <tr>
+						    <td colspan="2" style="text-align: right">
+                            <div style="float: right;">
+                                <messageBox />
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+						    <td colspan="2" style="text-align: center">
+                                <captcha />
+                            </td>
+                        </tr>
+					    <tr>
+						    <td colspan="2" style="text-align: center">
+						        <input type="submit" value="  ارسال پیغام  " />
+						    </td>
+		                </tr>
+				    </table>
+                    </form>
+                </div>
+                </contact>
+            </div>
+            <div id="sidebar">
+                <about>
+                    <div class="gadget">
+                        <h3>@caption</h3>
+                        <div>
+                            <authorAvatar>
+                            <div style="text-align: center;" class="contents">
+                                <a href="@profileHref" target="_blank">
+                                    <img src="@image" alt="" /></a>
+                            </div>
+                            </authorAvatar>
+                            <div class="description">@description</div>
+                        </div>
+                    </div>
+                </about>
+                <poll>
+                    <div class="gadget">
+                        <h3>@caption</h3>
+                        <div style="margin: 10px 0;">@question</div>
+                        <vote>
+                        <div id="poll-vote-@id">
+                        <ul class="poll-vote">
+                        <many>
+                            <li><selectBox /> @answer</li>
+                        </many>
+                        </ul>
+                        <div style="margin: 10px 0;">
+                            <input type="button" value="   ثبت   " onclick="@ajaxAction" />
+                            <showResult>
+                                <a onclick="@ajaxAction" style="cursor: pointer; margin-right: 3px;">مشاهده نتیجه</a>
+                            </showResult>
+                            <div id="poll-vote-error-message-@id" class="message">
+                            </div>
+                            <expireDate>
+                                <div style="margin: 12px 0 5px 0;">
+                                    @message
+                                </div>
+                            </expireDate>
+                        </div>
+                        </div>
+                        </vote>
+                        <div id="poll-result-@id">
+                        <result>
+                            <many>
+                                <div class="poll-answer">@answer (@voteCount رای)</div>
+                                <div class="poll-result-box">
+                                    <div class="poll-result-vote-percent" style="width: @votePercent%;">
+                                        @votePercent%
+                                    </div>
+                                </div>
+                            </many>
+                            <div style="margin: 12px 0 5px 0;">
+                                تعداد رای دهندگان: @totalVotes نفر
+                            </div>
+                            <message>
+                                <div class="message">@text</div>
+                            </message>
+                            <back>
+                                <a onclick="document.getElementById('poll-result-@id').innerHTML = ''; document.getElementById('poll-vote-@id').style.display='block';" style="cursor: pointer;">بازگشت به نظرسنجی</a>
+                            </back>
+                        </result>
+                        </div>
+                    </div>
+                </poll>
+                <dailylink>
+                    <div class="gadget">
+                        <h3>@caption</h3>
+                        <div class="contents">
+                            <ul>
+                                <many>
+                                    <li><a href="@url" title="تاریخ @date" target="_blank">@title</a><description><div class="description">@text</div></description></li></many>
+                                <li><b><a href="@dailylinkArchiveHref">آرشیو لینک‌های روزانه</a></b></li></ul>
+                        </div>
+                    </div>
+                </dailylink>
+		        <calendar>
+			        <div class="gadget">
+				        <h3>@caption</h3>
+				        <table id="calendar" class="contents">
+					        <tr>
+						        <td class="title">@date</td>
+					        </tr>
+					        <tr>
+						        <td>
+						        <table width="100%" cellspacing="0">
+							        <tr class="week-days">
+								        <td>ش</td><td>ی</td><td>د</td><td>س</td><td>چ</td><td>پ</td><td>ج</td>
+							        </tr>
+							        <many>
+								        <tr>
+									        <day>
+										        <on><td class="day-on"><a href="@href" title="تعداد یادداشت‌ها: @postCount">@day</a></td></on>
+										        <off><td class="day-off">@day</td></off>
+									        </day>
+								        </tr>
+							        </many>
+						        </table>
+						        </td>
+					        </tr>
+				        </table>
+			        </div>
+                </calendar>
+                <archive>
+                    <div class="gadget">
+                    <list>
+                        <h3>@caption</h3>
+                        <div class="contents">
+                            <ul>
+                                <many>
+                                    <li><a href="@href">@date<postCount> (@count)</postCount></a></li></many>
+                            </ul>
+                        </div>
+                    </list>
+                    <dropdown>
+                        <h3>@caption</h3>
+                        <div class="g-content">
+			            <select onchange="if(this.options[this.selectedIndex].value != -1){ javascript:location.href=this.options[this.selectedIndex].value; }">
+				            <option value="-1"></option>
+				            <many>
+					            <option value="@href">@date<postCount>&nbsp;(@count)</postCount></option>
+				            </many>
+			            </select>
+                        </div>
+                    </dropdown>
+                    </div>
+                </archive>
+                <tagCloud>
+                <div class="gadget tag-cloud">
+                    <h3>@caption</h3>
+                    <div class="g-content">
+                    <many>
+                        <a href="@href" class="tag-@weight">@name</a>
+                    </many>
+                    </div>
+		        </div>
+                </tagCloud>
+                <category>
+                    <div class="gadget">
+                    <list>
+                        <h3>@caption</h3>
+                        <div class="contents">
+                            <ul>
+                                <many>
+                                    <li><a href="@href">@name</a><postCount>&nbsp;(@count)&nbsp;</postCount><rss>&nbsp;<a href="@href" target="_blank"><img src="http://www.blogsky.com/images/template/world/rss3.gif" alt="" /></a></rss><subCategory><ul class="sub"><many /></ul></subCategory></li></many>
+                            </ul>
+                        </div>
+                    </list>
+                    <dropdown>
+                        <h3>@caption</h3>
+                        <div class="g-content">
+			            <select onchange="if(this.options[this.selectedIndex].value != -1){ javascript:location.href=this.options[this.selectedIndex].value; }">
+				            <option value="-1"></option>
+				            <many>
+					            <option value="@href">@whiteSpace@name<postCount>&nbsp;(@count)</postCount></option>
+                                <subCategory><many /></subCategory>
+				            </many>
+			            </select>
+                        </div>
+                    </dropdown>
+                    </div>
+                </category>
+                <staticPageList>
+                    <div class="gadget">
+                        <h3>@caption</h3>
+                        <div class="contents">
+                            <ul>
+                                <many><li><a href="@href">@title</a></li></many>
+                            </ul>
+                        </div>
+                    </div>
+                </staticPageList>
+                <link>
+                    <div class="gadget">
+                        <h3>@caption</h3>
+                        <div class="contents">
+                            <ul>
+                                <many><li><a href="@url" target="_blank">@title</a><description><div class="description">@text</div></description></li></many>
+                            </ul>
+                        </div>
+                    </div>
+                </link>
+                <author>
+                    <div class="gadget">
+                    <list>
+                        <h3>@caption</h3>
+                        <div class="contents">
+                            <ul>
+                                <many>
+                                    <li><a href="@href">@name</a><postCount>&nbsp;(@count)&nbsp;</postCount><rss>&nbsp;<a href="@href" target="_blank"><img src="http://www.blogsky.com/images/template/world/rss3.gif" alt="" /></a></rss><profile>&nbsp;<a href="@href" target="_blank"><img src="http://www.blogsky.com/images/template/world/profile.gif" alt="" /></a></profile></li></many>
+                            </ul>
+                        </div>
+                    </list>
+                    <dropdown>
+                        <h3>@caption</h3>
+                        <div class="g-content">
+			            <select onchange="if(this.options[this.selectedIndex].value != -1){ javascript:location.href=this.options[this.selectedIndex].value; }">
+				            <option value="-1"></option>
+				            <many>
+					            <option value="@href">@name<postCount>&nbsp;(@count)</postCount></option>
+				            </many>
+			            </select>
+                        </div>
+                    </dropdown>
+                    </div>
+                </author>
+                <customHtml>
+  	            <div class="gadget">
+  		            <h3>@caption</h3>
+                    <div class="html g-content">@html</div>
+  	            </div>
+                </customHtml>
+                <recentPost>
+                    <div class="gadget">
+                        <h3>@caption</h3>
+                        <div class="contents">
+                            <ul>
+                                <many>
+                                    <li><a href="@href" title="@date">@title</a><excerpt><div class="excerpt">@text</div></excerpt></li></many>
+                                <li><b><a href="@postArchiveHref">لیست کامل عناوین یادداشت‌ها</a></b></li></ul>
+                        </div>
+                    </div>
+                </recentPost>
+                
+                <stats>
+                <div class="gadget">
+                    <h3>@caption</h3>
+                    <div class="contents">
+                        <ul>
+                            <li>بازدیدکنندگان: @counter</li></ul>
+                    </div>
+                </div>
+                </stats>
+            </div>
+        </div>
+        <div class="footer">
+        </div>
+    </div>
+<!-- footer -->
+<!--
+    instagram: www.instagram.com/programmingtutorial
+    site: programlamadersleri.net
+-->
+
+<div class="email">
+		<div class="container">
+		    
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-xs-12 text-center">
+					
+			</div>
+			
+		</div>
+	</div>		
+	
+	<div class="footer-top"><br> <h3>تماس با من</h3>
+	   <div class="container">  
+	      <div class="social-icons">  
+
+                                <a href="#"><i class="fas fa-heart"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-google-plus"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-pinterest"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+		   </div>
+	   </div>
+	</div>
+	
+	<footer>
+		<div class="footer" id="footer">
+            <div class="container">
+               <div class="row">
+			
+                <div class="col-lg-3 col-xs-12">
+                   <h3>تایید زرین پال</h3>
+                   <span class="logo">
+<center>
+<script src="https://www.zarinpal.com/webservice/TrustCode" type="text/javascript"></script>
+</center>
+
+                                        </span>
+
+                </div>
+                <div class="col-lg-3 col-xs-12">
+                   <h3>منو</h3>
+                    <ul>
+                        <li><a href="#">خانه</a></li>
+                        <li><a href="#">هیئت مدیره</a></li>
+						<li><a href="#">Mission-Vision</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+				<div class="col-lg-3 col-xs-12">
+                    <h3>دسته بندی ها</h3>
+                    <ul>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Video Gallery</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Announcement</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-xs-12">
+                    <h3>تماس با من</h3>
+                    <ul>
+                        <li> <a href="#">آدرس:</a> </li>
+                        <li> <a href="#">تلفن:</a> </li>
+                        <li> <a href="#">فکس:</a> </li>
+                        <li> <a href="#">ایمیل:</a> </li>
+                    </ul>
+                </div>
+				
+             </div>
+          </div>
+        </div>
+	</footer>
+	
+	<div class="footer-bottom">
+	    <p class="copyright">
+کلیه حقوق محفوظ است ۱۳۹۸ <span class="text-primary">@blogTitle</span>
+</p><div class="credits">
+	</div>
+<!-- footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  </body>
+</html>
